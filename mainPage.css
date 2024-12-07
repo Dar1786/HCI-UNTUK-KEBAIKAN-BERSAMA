@@ -54,6 +54,9 @@ img {
 }
 
 .border{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #fefefe;
     width: 100%;
     max-width: 1180px;
@@ -95,6 +98,8 @@ img {
 }
 
 .category{
+    display: flex;
+    flex-direction: column;
     padding: 10px 10px;
     border: 1px solid rgb(0, 0, 0, 5%);
     margin-right: 15px;
@@ -105,6 +110,7 @@ img {
     color: black;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     text-decoration: none;
     font-size: 14px;
@@ -117,4 +123,94 @@ img {
     display: flex;
     align-self: center;
 }
+.category-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width:300px;
+    margin-top: 70px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
 
+
+}
+.category-text{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    width: fit-content;
+    border: 1px solid;
+    text-align: center;
+    margin-left: 4px;
+    align-items: center;
+    justify-content:center;
+    border-radius: 9px;
+
+}
+.category-text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    
+}
+
+.category-text:hover{
+    box-shadow: 2px 2px 2px 0 rgb(0,0,0,25%) ;
+}
+.product-container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding: 35px 40px;
+
+}
+.product-spec img{
+    width:100%;
+    height: 200px;
+    border-radius:10px;
+
+
+
+}
+.star-rate img{
+    width: 10px;
+    height:10px;
+   
+
+}
+.product-desc
+{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding-left: 4px;
+
+
+}
+.product-spec{
+    display: flex;
+    margin-top: 20px;
+    width:220px;
+    height: 400px;
+    margin-right: 15px;
+    max-width: 220px;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 3px 0 0 rgb(0,0,0,25%);
+    border: 1px solid;
+}
+.product-spec p{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
