@@ -170,8 +170,10 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width:100%;
-    padding: 35px 40px;
+    width:100vw;
+    padding: 40px 45px;
+    padding-left: 130px;
+    padding-right: 130px;
 
 }
 .product-spec img{
@@ -200,10 +202,10 @@ img {
 .product-spec{
     display: flex;
     margin-top: 20px;
-    width:220px;
-    height: 400px;
+    width:240px;
+    height: 500px;
     margin-right: 15px;
-    max-width: 220px;
+    max-width: 300px;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 1px 3px 0 0 rgb(0,0,0,25%);

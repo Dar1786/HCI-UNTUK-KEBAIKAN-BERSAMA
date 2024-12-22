@@ -1,0 +1,43 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+    border-top:1px solid #5b5b5b;
+}
+.bisanara a{
+    text-decoration: none;
+    color: #5b5b5b;
+}
+.bisanara a:hover{
+    color: blue;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content:space-evenly;
+    align-items:baseline;
+}
+.produkbantuan a{
+    text-decoration: none;
+    color:#5b5b5b;
+
+
+
+}
+.produkbantuan a:hover{
+    color: blue;
+}
+.right-container{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: baseline;
+}
+.right-container img{
+    width: 50%;
+
+
+}
